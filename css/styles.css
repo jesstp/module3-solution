@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    width:100%
+}
+
+body {
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #a2a2a2;
+    border-bottom: 2px solid #000;
+  }
+
+h1  {
+    font-size: 1.75em;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar-brand p {
+    color: #000;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, #nav-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* END HEADER */
+
+h3 {
+    padding-top: 0.3em;
+}
+
+p {
+    clear: left;
+    display: inline-block;
+    padding: 10px;
+} 
+.boxes {
+    background-color: #a2a2a2;
+  }
+
+  @media (max-width: 767px) {
+
+    .navbar-brand{
+        padding: 15px 30px;
+    }
+
+    .navbar-header button.navbar-toggle {
+        clear: both;
+        margin-top: -62px;
+        border: 2px solid #000;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus  {
+        background-color: #a2a2a2;
+    }
+
+
+    .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+        border-color: #ddd;
+    }
+
+    .icon-bar {
+        border: 2px solid #000;
+    }
+
+    #nav-list a:hover {
+        background: none;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: #000;
+        padding: 0;
+        background-color: #fff;
+        border: 2px solid #000;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+        padding: 0 3px;
+    }
+    .navbar-nav>li {
+        font-size: 1.1em;
+        text-align:center;
+        font-weight: bold;
+    }
+
+    li {
+        border-bottom: 2px solid;
+    }
+    li:last-child {
+        border-bottom: none;
+    }
+
+    .boxes {
+        margin: 2em;
+      }
+
+  }
